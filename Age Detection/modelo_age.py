@@ -61,7 +61,7 @@ model.add(Dense(4, activation='softmax'))
 model.compile(loss='categorical_crossentropy',
               optimizer='adam', metrics=['accuracy'])
 model.summary()
-model.fit(X_train, Y_train, batch_size=15, epochs=20,
+model.fit(X_train, Y_train, batch_size=25, epochs=60,
           verbose=1, validation_data=(X_test, Y_test))
 
-model.save('previsor_idade_v1_1.0.h5')
+model.save('previsor_idade_v1_2.keras')

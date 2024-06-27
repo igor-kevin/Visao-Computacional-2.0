@@ -6,7 +6,7 @@ import numpy as np
 
 cascade = cv2.CascadeClassifier(
     cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
-modelo_idade = load_model('previsor_idade_v1_1.0.h5')
+modelo_idade = load_model('previsor_idade_v1_2.keras')
 
 IDADES = ['6-20',
           '25-30',
